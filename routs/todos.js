@@ -56,6 +56,7 @@ router.post('/', async (req, res) => {
 
 router.patch('/:id', getToDo, async (req, res) => {
     try {
+//         You can use npm joi module to validate your todo object
         if (req.body.name != null) {
             res.todo.name = req.body.name
         }
