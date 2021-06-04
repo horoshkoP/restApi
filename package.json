@@ -1,3 +1,4 @@
+// Please add node_modules folder to .gitignore file and avoid commiting it to the repo since it very heavy operation for git
 {
   "name": "rest-api",
   "version": "1.0.0",
